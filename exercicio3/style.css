@@ -1,1 +1,16 @@
 /* Estilize os links com :hover aqui */
+ nav {
+            background-color: #ddd;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: red;
+        }

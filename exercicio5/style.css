@@ -1,1 +1,29 @@
 /* Use :focus para o input e :hover para o botão */
+
+        /* Estilo do campo de texto */
+        input[type="text"] {
+            padding: 8px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+
+        /* Destacar quando em foco */
+        input[type="text"]:focus {
+            border-color: blue;
+            outline: none;
+        }
+
+        /* Estilo do botão */
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Mudar cor ao passar o mouse */
+        button:hover {
+            background-color: red;
+        }

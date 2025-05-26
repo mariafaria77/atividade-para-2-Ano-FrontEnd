@@ -1,1 +1,13 @@
 /* Use :first-child e :last-child para estilizar os itens da lista */
+ul {
+            list-style-type: square;
+            padding: 10px;
+        }
+
+        ul li:first-child {
+            font-weight: bold;
+        }
+
+        ul li:last-child {
+            font-style: italic;
+        }
